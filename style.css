@@ -1,0 +1,585 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/*enleve l'encadrée des input*/
+textarea:focus, input:focus{
+    outline: none;
+}
+
+section {
+    min-height: 100vh;
+}
+
+/*style de la premier section*/
+/*arriere plan section1_______________________________________________*/
+#tete {
+    background-image: radial-gradient(rgb(139, 195, 245), #1294b8);
+}
+
+
+/*barre de navigation en haut de l'ecran_______________________________*/
+nav {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    /*padding: 0 20px;*/
+}
+
+/*GAUCHE___________________________________________________________*/
+#navKucra {
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    font-size: 50px;
+    color: white;
+}
+
+/*MILLIEUX_____________________________________________________________ */
+#navListeLiens {
+    width: 50%;
+}
+
+#navListeLiens ul {
+    /*style de la liste dans la nav barre*/
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#navListeLiens ul li {
+    /*enleve les points des listes*/
+    list-style: none;
+}
+
+#navListeLiens ul li a {
+    /*enleve le style de base atribuer au liens*/
+    text-decoration: none;
+    color: #fff;
+}
+
+/*DROITE___________________________________________________*/
+#navIcon {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navIcon ul {
+    display: flex;
+    gap: 20px;
+}
+
+#navIcon ul li {
+    list-style: none;
+}
+
+#navIcon ul li a i {
+    color: #fff;
+}
+
+/*input email + image cat___________________________________________________*/
+#inputEmailImageCat{
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* partie gauche , texte input email*/
+#inputEmailTxt{
+    width: 40%;
+    padding-right: 15%;
+}
+
+#inputEmailTxt h1{
+    font-size: 46px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+   
+}
+#inputEmailTxt p{
+    margin-bottom: 20px;
+}
+
+/*Input email_____________________________________________________________*/
+#InputEmail{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.623);
+    border-radius: 20px;
+    height: 40px;
+
+}
+
+#email{
+    border-style: none;
+    border-radius: 20px;
+    padding-left: 15px;
+    width: 70% ;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#SUBSCRIBE{
+    background-color: rgb(0, 176, 176);
+    color: white;
+    border-radius: 20px;
+    width: 30%;
+    margin: 3px 3px;
+    
+}
+
+/*partie de droite image chat_________________________________________*/
+#ImageCat{
+    width: 40%;
+}
+/*FIN DE LA SECTION 1___________________________________________________*/
+
+
+
+
+
+/*debut style de la section 2_________________________________________________*/
+/*intro section2_____________*/
+
+#section2 h3{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#txt_s2 {
+    text-align: center;
+    color: grey;
+    padding-bottom: 50px;
+}
+/*style des 3 card_____________________________________________________*/
+#allCard{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.card{
+    display: flex;
+    background-image: radial-gradient(rgb(139, 195, 245), #1294b8);
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    padding: 1.7%;
+    text-align: center;
+    transition: 0.5s;
+}
+.card:hover{
+    transform: translate(0,-20px);
+}
+
+.card h3{
+    font-size: 20px;
+}
+.card i{
+    font-size: 50px;
+}
+/*FIN SECTION 2_____________________________________________________________*/
+
+/*DEBUT SECTION 3___________________________________________________________*/
+
+#section3{
+    background-color: rgb(230, 230, 230);
+}
+#section3_h3{
+    text-align: center;
+    padding-top: 5%;
+    font-size: 40px;
+}
+
+#section3_p{
+    text-align: center;
+    padding-top: 1%;
+    color: gray;
+}
+
+
+
+/*FIN SECTION 3_____________________________________________________________*/
+
+/*DEBUT DE LA SECTION 4_____________________________________________________*/
+/*intro section 4___________*/
+#section4_h3{
+    text-align: center;
+    padding-top: 100px;
+    font-size: 36px;
+}
+#section4_p{
+    text-align: center;
+    color: grey;
+    padding-bottom: 60px;
+}
+/*style presentation__________________________________________*/
+#presentation1{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    font-size: 20px ;
+    font-weight: 600;
+}
+#presentation2{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    color: grey;
+    font-size: 12px;
+}
+#presentation1 p{
+    text-align: center;
+    width: 200px;
+    
+}
+#presentation2 p{
+    text-align: center;
+    width: 200px;
+    
+}
+
+/*style member________________________________________________*/
+#team_s4{
+    display: flex;
+    gap: 100px;
+    justify-content:center ;
+    text-align: center;
+}
+
+
+/*Image____________________________________________________*/
+.image_S4{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+
+}
+.image_S4 img{
+    width: 200px;
+    transition: 0.5s;
+    filter: grayscale(1); 
+    border-radius: 50%;
+}
+.image_S4:hover > .member_ul{
+    left: 10px;
+    top: 25%;
+    opacity: 1;
+}
+.image_S4 img:hover{
+    transform: scale(1.1);
+    filter: grayscale(0); 
+}
+
+/*liste d'icon_______________________________________________*/
+.member_ul{
+    position: absolute;
+    left: -15px;
+    top : 10%;
+    transition: 0.5s;
+    opacity: 0;
+
+}
+.member_ul li {
+    list-style: none;
+}
+.member_ul li a {
+    color: black;
+}
+/*Nom et role du membre_____________________________*/
+.member_p4{
+    color: gray;
+    font-size: 12px;
+}
+/*FIN SECTION 4_________________________________________________________________________*/
+
+/*DEBUT SECTION 5_______________________________________________________________________*/
+/*Parallax__________________________________________________*/
+#parallax{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.501);
+    background-image: url("img/parallax.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*titre et txt___________________*/
+#parallax h3 {
+    color: white;
+    font-size: 40px;
+    padding-top: 3%;
+}
+
+#parallax p{
+    color: white;
+    text-align: center;
+    padding:3% 0%;
+}
+
+#parallax button{
+    border: solid 2px white;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    width: 160px;
+    height: 50px;
+}
+
+#parallax button:hover{
+    background-color: #fff;
+    color: black;
+    transition: 0.5s;
+}
+/*FIN SECTION 5____________________________________________________________________*/
+
+/*DEBUT SECTION 6____________________________________________________*/
+#section6{
+    background-color: rgb(230, 230, 230);
+}
+#section6_h3{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 1%;
+}
+#section6_p{
+    color: grey;
+    text-align: center;
+    padding-bottom: 8%;
+}
+#cinq_image{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}
+#cinq_image img{
+    width: 100px;
+}
+/*FIN SECTION 6_____________________________________________________*/
+
+/*DEBUT SECTION 7___________________________________________________*/
+#section7{
+    display: flex;
+    justify-content: center;
+    padding: 10%;
+    gap: 5%;
+}
+#section7_txt{
+    width: 40%;
+
+}
+#section7_img img{
+    width: 80%;
+}
+
+#section7_txt_h3{
+    font-size: 24px;
+    padding-bottom: 10%;
+}
+#section7_txt_p{
+    color: grey;
+    padding-bottom: 10%;
+}
+.compteur{
+    width: 150px;
+}
+#container_compteur{
+    display: flex;
+    padding-bottom: 10%;
+}
+.compteur .subject{
+    color: gray;
+}
+.compteur .nombre{
+    font-size: 30px;
+    color: black;
+}
+#section7 a{
+    background-color: rgb(0, 136, 255);
+    text-decoration: none;
+    color: white;
+    padding: 2% 6%;
+    border-radius: 5px;
+}
+/*FIN SECTION 7________________________________________________________________________*/
+
+/*DEBUT SECTION 8________________________________________________________*/
+#section8{
+    background-color: rgb(230, 230, 230);
+}
+#section8 h3{
+    text-align: center;
+    font-size: 40px;
+    padding: 2%;
+}
+#section8 #head{
+    color: grey;
+    text-align: center;
+}
+#section8 #container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 5%;
+}
+.abonnements{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.abonnements_promo{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    position: relative;
+}
+#abonnements_promo_p{
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    padding: 5%;
+}
+#promo{
+    background-color: rgb(0, 136, 255);
+    padding: 3%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 10px;
+}
+.price{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+.price .monnaie{
+    color: rgb(0, 136, 255);
+    align-self: flex-start;
+}
+.price .chiffre{
+    color: rgb(0, 136, 255);
+    font-size: 3rem; 
+}
+.price .mensuel{
+    color: gray;
+    align-self: flex-end;
+}
+.option{
+    padding: 15px;
+    display: flex;
+}
+.option .solo{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+}
+.abonnements .a {
+    width: 100%;
+    text-align: center;
+}
+.a a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 136, 255);
+    padding: 3% 35%;
+    border-radius: 5px;
+}
+.abonnements_promo .b {
+    width: 100%;
+    text-align: center;
+}
+.b a{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 136, 255);
+    padding: 3% 35%;
+    border-radius: 5px;
+}
+/*FIN SECTION 8__________________________________________________________*/
+
+/*DEBUT SECTION ___9_____________________________________________________________________*/
+
+#section9_h3{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 5%;
+}
+
+#section9_p{
+    text-align: center;
+    color: gray;
+    padding-top:1% ;
+    padding-bottom: 5%;
+}
+
+/*style ________________*/
+#blogS9{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blogElement{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    gap: 15px;
+}
+.blogElement img{
+    width: 400px;
+    border-radius: 5px;
+}
+.blogElement h6{
+    font-size: 20px;
+}
+.blogElement p{
+    color: grey;
+}
+.blogElement a {
+    text-decoration: none;
+    color: rgb(0, 110, 255);
+}
+
+
+/*FIN SECTISON 9__________________________________________________________________________*/
+
+@font-face {
+    font-family: Poppins;
+    src: url(./Poppins/Poppins-Regular.ttf);
+}
