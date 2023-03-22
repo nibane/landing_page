@@ -475,6 +475,9 @@ nav {
     padding: 15px;
     display: flex;
 }
+.option_p{
+    width: 40%;
+}
 .option .solo{
     width: 80%;
     display: flex;
@@ -487,10 +490,16 @@ nav {
 }
 .abonnements_a a{
     text-decoration: none;
-    color: white;
-    background-color: rgb(0, 136, 255);
+    color: rgb(0, 136, 255);
     padding: 3% 35%;
     border-radius: 5px;
+    border: solid;
+}
+.fa-circle-check{
+    color: green;
+}
+.fa-circle-xmark{
+    color: red;
 }
 
 /*abonnement_promo________________________*/
@@ -500,6 +509,7 @@ nav {
     height: 500px;
     border-radius: 10px;
     position: relative;
+    top: -20px;
 }
 #abonnements_promo_p{
     font-weight: 600;
