@@ -447,40 +447,11 @@ nav {
     height: 500px;
     border-radius: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-.abonnements_promo{
-    background-color: rgb(255, 255, 255);
-    width: 400px;
-    height: 500px;
-    border-radius: 10px;
-    position: relative;
-}
-#abonnements_promo_p{
+.abonnements_p{
     font-weight: 600;
     color: #000;
     text-align: center;
     padding: 5%;
-}
-#promo{
-    background-color: rgb(0, 136, 255);
-    padding: 3%;
-    width: 20%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    border-radius: 0 10px;
 }
 .price{
     height: 50px;
@@ -509,27 +480,56 @@ nav {
     display: flex;
     justify-content: end;
 }
-.abonnements .a {
+.abonnements_a {
     width: 100%;
     text-align: center;
+    padding-top: 5%;
 }
-.a a{
+.abonnements_a a{
     text-decoration: none;
     color: white;
     background-color: rgb(0, 136, 255);
     padding: 3% 35%;
     border-radius: 5px;
 }
-.abonnements_promo .b {
+
+/*abonnement_promo________________________*/
+.abonnements_promo{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    position: relative;
+}
+#abonnements_promo_p{
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    padding: 5%;
+}
+#promo{
+    background-color: rgb(0, 136, 255);
+    padding: 3%;
+    width: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 0 10px;
+    color: white;
+}
+.abonnements_promo_a {
     width: 100%;
     text-align: center;
+    padding-top: 5%;
 }
-.b a{
+.abonnements_promo_a a{
     text-decoration: none;
     color: white;
     background-color: rgb(0, 136, 255);
     padding: 3% 35%;
     border-radius: 5px;
+
+
 }
 /*FIN SECTION 8__________________________________________________________*/
 
