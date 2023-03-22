@@ -374,6 +374,10 @@ nav {
 #cinq_image img{
     width: 100px;
 }
+#cinq_image img:hover{
+    filter: contrast(40%);
+    transition: 0.5s;
+}
 /*FIN SECTION 6_____________________________________________________*/
 
 /*DEBUT SECTION 7___________________________________________________*/
