@@ -575,7 +575,7 @@ nav {
     flex-direction: column;
     width: 400px;
     gap: 15px;
-    /* overflow: hidden; */
+    padding-bottom: 5%;
 }
 .blogElement_img{
     width: 400px;
@@ -621,9 +621,55 @@ nav {
     text-decoration: none;
     color: rgb(0, 110, 255);
 }
-
-
 /*FIN SECTISON 9__________________________________________________________________________*/
+
+
+/*FOOTER__________________________________________________________________________________*/
+
+footer {
+    background-color: rgba(0, 0, 0, 0.815);
+    color: gray;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#footer_container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#footer_container_i1 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+#footer_container_i1 i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+#footer_container_a1{
+    display: flex;
+    gap: 40px;
+    padding: 2%;
+    width: 100%;
+    justify-content: center;
+}
+#auteur{
+    padding: 2%;
+    text-align: center;
+}
+
+/*FOOTER__________________________________________________________________________________*/
+
 
 @font-face {
     font-family: Poppins;
