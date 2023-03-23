@@ -4,11 +4,14 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 /*enleve l'encadrée des input*/
 textarea:focus, input:focus{
     outline: none;
 }
-#fleche_du_haut{
+#scroll_top{
     height: 50px;
     width: 50px;
     background: #000000ab;
@@ -21,10 +24,9 @@ textarea:focus, input:focus{
     bottom: 20px;
     cursor: pointer;
 }
-#fleche_du_haut i{
+#scroll_top i{
     font-size: 26px;
     color: white;
-    transition: 0.5s;
 }
 section {
     min-height: 100vh;
