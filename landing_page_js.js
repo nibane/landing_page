@@ -16,13 +16,21 @@ switchThemeBtn.addEventListener('click',() => {
     console.log("ok");
     if(toggleTheme === 0){
         document.documentElement.style.setProperty('--ecriture', '#f1f1f1')
-        document.documentElement.style.setProperty('--background', '#262626')
+        document.documentElement.style.setProperty('--background_blanc', '#262626')
+        document.documentElement.style.setProperty('--background_gradiant', 'radial-gradient(rgb(55, 23, 150), #154fff)')
+        
+        
+        
         toggleTheme++;
         
     }else{
         
         document.documentElement.style.setProperty('--ecriture', '#262626')
-        document.documentElement.style.setProperty('--background', '#f1f1f1')
+        document.documentElement.style.setProperty('--background_blanc', '#f1f1f1')
+        document.documentElement.style.setProperty('--background_gradiant', 'radial-gradient(rgb(255, 123, 99), #ccc255)')
+        
+        
+        
         toggleTheme--;
     }
 
