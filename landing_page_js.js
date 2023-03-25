@@ -13,11 +13,13 @@ let toggleTheme = 0;
 
 
 switchThemeBtn.addEventListener('click',() => {
-    console.log("ok");
+    
     if(toggleTheme === 0){
         document.documentElement.style.setProperty('--ecriture', '#f1f1f1')
         document.documentElement.style.setProperty('--background_blanc', '#262626')
-        document.documentElement.style.setProperty('--background_gradiant', 'radial-gradient(rgb(30, 30, 30), #101010)')
+        document.documentElement.style.setProperty('--background_gradiant', 'radial-gradient(rgb(40, 40, 40), #202020)')
+        document.documentElement.style.setProperty('--background_gris', '#525252')
+        
         
         
         
@@ -28,6 +30,7 @@ switchThemeBtn.addEventListener('click',() => {
         document.documentElement.style.setProperty('--ecriture', '#262626')
         document.documentElement.style.setProperty('--background_blanc', '#f1f1f1')
         document.documentElement.style.setProperty('--background_gradiant', 'radial-gradient(rgb(139, 195, 245), #1294b8)')
+        document.documentElement.style.setProperty('--background_gris', '#d7d7d7')
         
         
         
