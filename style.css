@@ -1,8 +1,9 @@
 :root{
-    --ecriture: #f1f1f1;
+    --ecriture: #000000;
     --background_blanc: #f9f9f9;
     --background_gradiant: radial-gradient(rgb(139, 195, 245), #1294b8);
     --background_gris: #d7d7d7;
+    --background_bouton: #000000;
 }
 *{
     margin: 0px;
@@ -30,7 +31,7 @@ textarea:focus, input:focus{
     height: 70px;
     width: 150px;
     border-radius: 10%;
-    background-color: black;
+    background-color: var(--background_bouton);
     border-style: none;
     font-weight: 600;
     font-size: 20px;
@@ -448,7 +449,7 @@ nav {
 }
 .compteur .nombre{
     font-size: 30px;
-    color: black;
+    color: var(--ecriture);
 }
 #section7 a{
     background-color: rgb(0, 136, 255);
@@ -483,7 +484,7 @@ nav {
 }
 .abonnements_p{
     font-weight: 600;
-    color: #000;
+    color: var(--ecriture);
     text-align: center;
     padding: 5%;
 }
@@ -547,7 +548,7 @@ nav {
 }
 #abonnements_promo_p{
     font-weight: 600;
-    color: #000;
+    color: var(--ecriture);
     text-align: center;
     padding: 5%;
 }
