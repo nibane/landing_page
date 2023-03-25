@@ -19,6 +19,9 @@ switchThemeBtn.addEventListener('click',() => {
         document.documentElement.style.setProperty('--background_blanc', '#262626')
         document.documentElement.style.setProperty('--background_gradiant', 'radial-gradient(rgb(40, 40, 40), #202020)')
         document.documentElement.style.setProperty('--background_gris', '#525252')
+        document.documentElement.style.setProperty('--background_bouton', '#f1f1f1')
+
+        button_dark_mode.innerHTML = "light mode"
         
         
         
@@ -31,6 +34,9 @@ switchThemeBtn.addEventListener('click',() => {
         document.documentElement.style.setProperty('--background_blanc', '#f1f1f1')
         document.documentElement.style.setProperty('--background_gradiant', 'radial-gradient(rgb(139, 195, 245), #1294b8)')
         document.documentElement.style.setProperty('--background_gris', '#d7d7d7')
+        document.documentElement.style.setProperty('--background_bouton', '#000')
+
+        button_dark_mode.innerHTML = "dark mode"
         
         
         
