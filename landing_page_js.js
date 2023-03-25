@@ -17,7 +17,7 @@ switchThemeBtn.addEventListener('click',() => {
     if(toggleTheme === 0){
         document.documentElement.style.setProperty('--ecriture', '#f1f1f1')
         document.documentElement.style.setProperty('--background_blanc', '#262626')
-        document.documentElement.style.setProperty('--background_gradiant', 'radial-gradient(rgb(55, 23, 150), #154fff)')
+        document.documentElement.style.setProperty('--background_gradiant', 'radial-gradient(rgb(30, 30, 30), #101010)')
         
         
         
@@ -27,7 +27,7 @@ switchThemeBtn.addEventListener('click',() => {
         
         document.documentElement.style.setProperty('--ecriture', '#262626')
         document.documentElement.style.setProperty('--background_blanc', '#f1f1f1')
-        document.documentElement.style.setProperty('--background_gradiant', 'radial-gradient(rgb(255, 123, 99), #ccc255)')
+        document.documentElement.style.setProperty('--background_gradiant', 'radial-gradient(rgb(139, 195, 245), #1294b8)')
         
         
         
