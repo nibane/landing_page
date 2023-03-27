@@ -28,13 +28,13 @@ textarea:focus, input:focus{
     align-items: center;
 }
 #button_dark_mode {
-    height: 70px;
-    width: 150px;
+    height: 50%;
+    width: 80%;
     border-radius: 10%;
     background-color: var(--background_bouton);
     border-style: none;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 1.5vw;
     color: gray;
     border: 5px solid rgba(0, 111, 139, 0.533);
     cursor: pointer;
@@ -89,20 +89,21 @@ nav {
     display: flex;
     justify-content: center;
     width: 25%;
-    font-size: 50px;
+    font-size: 5vw;
     color: white;
 }
 
 /*MILLIEUX_____________________________________________________________ */
 #navListeLiens {
     width: 50%;
+    font-size: 1.3vw;
 }
 
 #navListeLiens ul {
     /*style de la liste dans la nav barre*/
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 4%;
 }
 
 #navListeLiens ul li {
@@ -141,7 +142,7 @@ nav {
 #inputEmailImageCat{
     display: flex;
     justify-content: center;
-    
+    padding-bottom: 20px;
 }
 
 /* partie gauche , texte input email*/
@@ -264,26 +265,33 @@ nav {
     padding-bottom: 60px;
 }
 /*style presentation__________________________________________*/
-#presentation1{
+#allPresentation{
     display: flex;
     gap: 100px;
+    justify-content: center;
+}
+.allPresentation_box{
+width: 200px;
+    
+}
+.presentation1{
+    display: flex;
     justify-content: center;
     font-size: 20px ;
     font-weight: 600;
 }
-#presentation2{
+.presentation2{
     display: flex;
-    gap: 100px;
     justify-content: center;
     color: grey;
     font-size: 12px;
 }
-#presentation1 p{
+.presentation1 p{
     text-align: center;
     width: 200px;
     
 }
-#presentation2 p{
+.presentation2 p{
     text-align: center;
     width: 200px;
     
@@ -697,7 +705,37 @@ footer {
 /*FOOTER__________________________________________________________________________________*/
 
 
+
 @font-face {
     font-family: Poppins;
     src: url(./Poppins/Poppins-Regular.ttf);
+}
+
+
+
+@media screen and (max-width: 800px) {
+    #allCard{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    #allPresentation{
+        flex-wrap: wrap;
+    }
+    #team_s4{
+        flex-wrap: wrap;
+    }
+    #cinq_image{
+        flex-wrap: wrap;
+    }
+    #container{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    #blogS9{
+        flex-wrap: wrap;
+    }
 }
